@@ -1,0 +1,370 @@
+Basic Deque test starts
+3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)]
+Jeque([1, 2])
+jpy[ 0 ]= 1
+jpy[ 1 ]= 2
+first= 1
+last= 2
+Jeque([3, 1, 2, 4])
+jpy[ 0 ]= 3
+jpy[ 1 ]= 1
+jpy[ 2 ]= 2
+jpy[ 3 ]= 4
+---------------QueueUsingDeque----------------
+Jeque([1])
+Jeque([2, 1])
+Jeque([3, 2, 1])
+Jeque([3, 2, 1])
+Jeque([3, 2])
+Jeque([5, 3, 2])
+---------------YOU GET ONLY 50% now----------------
+---------------Real test bench WILL BE given after exam---------------
+--------------- You will have Fun now -------------
+-------------- WARMUP -------START---
+Jeque([1])
+first= 1
+y = 1
+Jeque([2, 1])
+first= 2
+y = 2
+length = 3
+Jeque([3, 1, 2])
+last= 2
+Jeque([3, 1, 2, 3])
+last= 3
+y = 3
+Jeque([1, 2, 3])
+Jeque([1, 2, 3, 4])
+last= 4
+y = 1
+-------------- _test1 -------START---
+deque([])
+Jeque([])
+len =  0 0
+deque([1])
+Jeque([1])
+len =  1 1
+dpy[ 0 ]= 1 1
+deque([2, 1])
+Jeque([2, 1])
+len =  2 2
+dpy[ 0 ]= 2 2
+dpy[ 1 ]= 1 1
+deque([2, 1, 3])
+Jeque([2, 1, 3])
+len =  3 3
+dpy[ 0 ]= 2 2
+dpy[ 1 ]= 1 1
+dpy[ 2 ]= 3 3
+deque([7, 6, 5, 4, 2, 1, 3])
+Jeque([7, 6, 5, 4, 2, 1, 3])
+len =  7 7
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 1 1
+dpy[ 6 ]= 3 3
+deque([7, 6, 5, 4, 2, 1, 3, 8, 9])
+Jeque([7, 6, 5, 4, 2, 1, 3, 8, 9])
+len =  9 9
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 1 1
+dpy[ 6 ]= 3 3
+dpy[ 7 ]= 8 8
+dpy[ 8 ]= 9 9
+Poped 9 9
+deque([7, 6, 5, 4, 2, 1, 3, 8])
+Jeque([7, 6, 5, 4, 2, 1, 3, 8])
+len =  8 8
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 1 1
+dpy[ 6 ]= 3 3
+dpy[ 7 ]= 8 8
+Poped 8 8
+deque([7, 6, 5, 4, 2, 1, 3])
+Jeque([7, 6, 5, 4, 2, 1, 3])
+len =  7 7
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 1 1
+dpy[ 6 ]= 3 3
+Poped 3 3
+deque([7, 6, 5, 4, 2, 1])
+Jeque([7, 6, 5, 4, 2, 1])
+len =  6 6
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 1 1
+Poped 1 1
+deque([7, 6, 5, 4, 2])
+Jeque([7, 6, 5, 4, 2])
+len =  5 5
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+dpy[ 4 ]= 2 2
+Poped 2 2
+deque([7, 6, 5, 4])
+Jeque([7, 6, 5, 4])
+len =  4 4
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+dpy[ 3 ]= 4 4
+Poped 4 4
+deque([7, 6, 5])
+Jeque([7, 6, 5])
+len =  3 3
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+deque([7, 6, 5])
+Jeque([7, 6, 5])
+len =  3 3
+dpy[ 0 ]= 7 7
+dpy[ 1 ]= 6 6
+dpy[ 2 ]= 5 5
+Poped 7 7
+deque([6, 5])
+Jeque([6, 5])
+len =  2 2
+dpy[ 0 ]= 6 6
+dpy[ 1 ]= 5 5
+Poped 6 6
+deque([5])
+Jeque([5])
+len =  1 1
+dpy[ 0 ]= 5 5
+Poped 5 5
+deque([])
+Jeque([])
+len =  0 0
+deque([])
+Jeque([])
+len =  0 0
+deque([6, 4, 8, 9])
+Jeque([6, 4, 8, 9])
+len =  4 4
+dpy[ 0 ]= 6 6
+dpy[ 1 ]= 4 4
+dpy[ 2 ]= 8 8
+dpy[ 3 ]= 9 9
+Poped 6 6
+deque([4, 8, 9])
+Jeque([4, 8, 9])
+len =  3 3
+dpy[ 0 ]= 4 4
+dpy[ 1 ]= 8 8
+dpy[ 2 ]= 9 9
+Poped 4 4
+deque([8, 9])
+Jeque([8, 9])
+len =  2 2
+dpy[ 0 ]= 8 8
+dpy[ 1 ]= 9 9
+Poped 8 8
+deque([9])
+Jeque([9])
+len =  1 1
+dpy[ 0 ]= 9 9
+Poped 9 9
+-------------- _test1 -------END---
+-------------- _make_you_suffer -------START---
+deque([])
+Jeque([])
+len =  0 0
+deque([-100, -100])
+Jeque([-100, -100])
+len =  2 2
+dpy[ 0 ]= -100 -100
+dpy[ 1 ]= -100 -100
+deque([])
+Jeque([])
+len =  0 0
+deque([100, 100])
+Jeque([100, 100])
+len =  2 2
+dpy[ 0 ]= 100 100
+dpy[ 1 ]= 100 100
+deque([])
+Jeque([])
+len =  0 0
+deque([-100, -100])
+Jeque([-100, -100])
+len =  2 2
+dpy[ 0 ]= -100 -100
+dpy[ 1 ]= -100 -100
+deque([])
+Jeque([])
+len =  0 0
+deque([100, 100])
+Jeque([100, 100])
+len =  2 2
+dpy[ 0 ]= 100 100
+dpy[ 1 ]= 100 100
+deque([])
+Jeque([])
+len =  0 0
+deque([-100, -100])
+Jeque([-100, -100])
+len =  2 2
+dpy[ 0 ]= -100 -100
+dpy[ 1 ]= -100 -100
+deque([])
+Jeque([])
+len =  0 0
+deque([100, 100])
+Jeque([100, 100])
+len =  2 2
+dpy[ 0 ]= 100 100
+dpy[ 1 ]= 100 100
+deque([])
+Jeque([])
+len =  0 0
+deque([-100, -100])
+Jeque([-100, -100])
+len =  2 2
+dpy[ 0 ]= -100 -100
+dpy[ 1 ]= -100 -100
+deque([])
+Jeque([])
+len =  0 0
+deque([100, 100])
+Jeque([100, 100])
+len =  2 2
+dpy[ 0 ]= 100 100
+dpy[ 1 ]= 100 100
+deque([])
+Jeque([])
+len =  0 0
+deque([-100, -100])
+Jeque([-100, -100])
+len =  2 2
+dpy[ 0 ]= -100 -100
+dpy[ 1 ]= -100 -100
+deque([])
+Jeque([])
+len =  0 0
+deque([100, 100])
+Jeque([100, 100])
+len =  2 2
+dpy[ 0 ]= 100 100
+dpy[ 1 ]= 100 100
+deque([])
+Jeque([])
+len =  0 0
+-------------- _make_you_suffer -------ENDS---
+-------------- _test2 -- 5 -----START---
+deque([-4, -3, -2, -1, 0, 0, 1, 2, 3, 4])
+Jeque([-4, -3, -2, -1, 0, 0, 1, 2, 3, 4])
+len =  10 10
+dpy[ 0 ]= -4 -4
+dpy[ 1 ]= -3 -3
+dpy[ 2 ]= -2 -2
+dpy[ 3 ]= -1 -1
+dpy[ 4 ]= 0 0
+dpy[ 5 ]= 0 0
+dpy[ 6 ]= 1 1
+dpy[ 7 ]= 2 2
+dpy[ 8 ]= 3 3
+dpy[ 9 ]= 4 4
+deque([-3, -2, -1, 0, 0, 1, 2, 3, 4])
+Jeque([-3, -2, -1, 0, 0, 1, 2, 3, 4])
+len =  9 9
+dpy[ 0 ]= -3 -3
+dpy[ 1 ]= -2 -2
+dpy[ 2 ]= -1 -1
+dpy[ 3 ]= 0 0
+dpy[ 4 ]= 0 0
+dpy[ 5 ]= 1 1
+dpy[ 6 ]= 2 2
+dpy[ 7 ]= 3 3
+dpy[ 8 ]= 4 4
+deque([-2, -1, 0, 0, 1, 2, 3, 4])
+Jeque([-2, -1, 0, 0, 1, 2, 3, 4])
+len =  8 8
+dpy[ 0 ]= -2 -2
+dpy[ 1 ]= -1 -1
+dpy[ 2 ]= 0 0
+dpy[ 3 ]= 0 0
+dpy[ 4 ]= 1 1
+dpy[ 5 ]= 2 2
+dpy[ 6 ]= 3 3
+dpy[ 7 ]= 4 4
+deque([-1, 0, 0, 1, 2, 3, 4])
+Jeque([-1, 0, 0, 1, 2, 3, 4])
+len =  7 7
+dpy[ 0 ]= -1 -1
+dpy[ 1 ]= 0 0
+dpy[ 2 ]= 0 0
+dpy[ 3 ]= 1 1
+dpy[ 4 ]= 2 2
+dpy[ 5 ]= 3 3
+dpy[ 6 ]= 4 4
+deque([0, 0, 1, 2, 3, 4])
+Jeque([0, 0, 1, 2, 3, 4])
+len =  6 6
+dpy[ 0 ]= 0 0
+dpy[ 1 ]= 0 0
+dpy[ 2 ]= 1 1
+dpy[ 3 ]= 2 2
+dpy[ 4 ]= 3 3
+dpy[ 5 ]= 4 4
+deque([0, 1, 2, 3, 4])
+Jeque([0, 1, 2, 3, 4])
+len =  5 5
+dpy[ 0 ]= 0 0
+dpy[ 1 ]= 1 1
+dpy[ 2 ]= 2 2
+dpy[ 3 ]= 3 3
+dpy[ 4 ]= 4 4
+deque([1, 2, 3, 4])
+Jeque([1, 2, 3, 4])
+len =  4 4
+dpy[ 0 ]= 1 1
+dpy[ 1 ]= 2 2
+dpy[ 2 ]= 3 3
+dpy[ 3 ]= 4 4
+deque([2, 3, 4])
+Jeque([2, 3, 4])
+len =  3 3
+dpy[ 0 ]= 2 2
+dpy[ 1 ]= 3 3
+dpy[ 2 ]= 4 4
+deque([3, 4])
+Jeque([3, 4])
+len =  2 2
+dpy[ 0 ]= 3 3
+dpy[ 1 ]= 4 4
+deque([4])
+Jeque([4])
+len =  1 1
+dpy[ 0 ]= 4 4
+CPU time in sec = 0.0008740000000000414
+-------------- _test2 -- 5 -----END---
+-------------- _test2 -- 1000 -----START---
+CPU time in sec = 2.079124
+-------------- _test2 -- 1000 -----END---
+-------------- _testrandom -- 901 -----START---
+CPU time in sec = 5.9325849999999996
+-------------- _testrandom -- 901 -----Ends---
+append, appendleft, pop, popleft,deque[i],len()
+All the above function must have O(1) time and O(1) space for A grade
+Basic Deque test Passed. 

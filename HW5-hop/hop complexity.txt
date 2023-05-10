@@ -1,0 +1,6 @@
+hop complexity.txt
+
+1) The time complexity is O(n), as we can find the a[f]==f at the best situation time 0 or worst case n.
+Therefore, the time complexity is O(n)
+
+2) The space complexity is O(n), at the worst case, we need stack with storage n to store the hop(a, f) until there are results returned.

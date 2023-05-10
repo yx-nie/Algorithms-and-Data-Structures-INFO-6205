@@ -1,0 +1,93 @@
+Basic slist test starts
+3.10.4 (v3.10.4:9d38120e33, Mar 23 2022, 17:29:05) [Clang 13.0.0 (clang-1300.0.29.30)]
+------------  test append/prepend/find =================
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f1bd0>
+size of slist = 5
+After prepending [10, 11, 12] s looks like <__main__.Slist object at 0x10d4f1bd0>
+size of slist = 8
+Find if there passed
+Find if NOT there passed
+------------  test delete =================
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 5
+after removing 1 : <__main__.Slist object at 0x10d4f24a0>
+after removing 5 : <__main__.Slist object at 0x10d4f24a0>
+after removing 3 : <__main__.Slist object at 0x10d4f24a0>
+Cannot Remove 100 as it is not there <__main__.Slist object at 0x10d4f24a0>
+after removing 2 : <__main__.Slist object at 0x10d4f24a0>
+after removing 4 : <__main__.Slist object at 0x10d4f24a0>
+s is empty
+-----------  Testing delete_front ---------------------
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 5
+after removing 1 : <__main__.Slist object at 0x10d4f24a0>
+after removing 2 : <__main__.Slist object at 0x10d4f24a0>
+after removing 3 : <__main__.Slist object at 0x10d4f24a0>
+after removing 4 : <__main__.Slist object at 0x10d4f24a0>
+after removing 5 : <__main__.Slist object at 0x10d4f24a0>
+-----------  Testing delete_last ---------------------
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 5
+after removing 5 : <__main__.Slist object at 0x10d4f24a0>
+after removing 4 : <__main__.Slist object at 0x10d4f24a0>
+after removing 3 : <__main__.Slist object at 0x10d4f24a0>
+after removing 2 : <__main__.Slist object at 0x10d4f24a0>
+after removing 1 : <__main__.Slist object at 0x10d4f24a0>
+Basic slist test Passed. If you don't see this line means, you cannot write Slist
+------------  test reverse Iterative=================
+[] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 0
+s after reverse <__main__.Slist object at 0x10d4f24a0>
+------------  test reverse Iterative=================
+[1] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 1
+s after reverse <__main__.Slist object at 0x10d4f24a0>
+------------  test reverse Iterative=================
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f24a0>
+Size of s = 5
+s after reverse <__main__.Slist object at 0x10d4f24a0>
+------------  test reverse Iterative=================
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99] is stored as <__main__.Slist object at 0x10d4f1b10>
+Size of s = 100
+s after reverse <__main__.Slist object at 0x10d4f1b10>
+------------  test midpoint using 2 pointers =================
+[] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 0
+Mid point of s = 0
+Expected Mid point of s = 0
+------------  test midpoint using 2 pointers =================
+[1] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 1
+Mid point of s = 1
+Expected Mid point of s = 1
+------------  test midpoint using 2 pointers =================
+[1, 2] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 2
+Mid point of s = 1
+Expected Mid point of s = 1
+------------  test midpoint using 2 pointers =================
+[1, 2, 3] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 3
+Mid point of s = 2
+Expected Mid point of s = 2
+------------  test midpoint using 2 pointers =================
+[1, 2, 3, 4] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 4
+Mid point of s = 2
+Expected Mid point of s = 2
+------------  test midpoint using 2 pointers =================
+[1, 2, 3, 4, 5] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 5
+Mid point of s = 3
+Expected Mid point of s = 3
+------------  test midpoint using 2 pointers =================
+[1, 2, 3, 4, 5, 6] is stored as <__main__.Slist object at 0x10d4f3a90>
+size of slist = 6
+Mid point of s = 3
+Expected Mid point of s = 3
+------------  test midpoint using 2 pointers =================
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99] is stored as <__main__.Slist object at 0x10d4f3250>
+size of slist = 100
+Mid point of s = 49
+Expected Mid point of s = 49
+Testing L0002Test Ends

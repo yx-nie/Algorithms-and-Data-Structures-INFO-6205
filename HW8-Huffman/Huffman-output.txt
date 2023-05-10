@@ -1,0 +1,47 @@
+Testing Huffman Starts
+----------- Basic test Start --------------
+---- Problem 1 s =  a ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: a
+Your     string: a
+% reduction = -100.0
+---- Problem 1 s =  aba ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: aba
+Your     string: aba
+% reduction = -87.5
+---- Problem 1 s =  aaabbggggghhhhaaaggggaaaaa_+@# ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: aaabbggggghhhhaaaggggaaaaa_+@#
+Your     string: aaabbggggghhhhaaaggggaaaaa_+@#
+% reduction = -69.58333333333333
+---- Problem 1 s =  A quick brown fox jumps over the lazy dog ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: A quick brown fox jumps over the lazy dog
+Your     string: A quick brown fox jumps over the lazy dog
+% reduction = -43.59756097560975
+---- Problem 1 s =  Pack my box with five dozen liquor jugs ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: Pack my box with five dozen liquor jugs
+Your     string: Pack my box with five dozen liquor jugs
+% reduction = -43.91025641025641
+---- Problem 1 s =  Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially.At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom. A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance. ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially.At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom. A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance.
+Your     string: Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially.At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom. A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance.
+% reduction = -47.33606557377049
+---- Problem 1 s =  Baa, baa, black sheep, have you any wool? ------  STARTS
+WRITE EN-CODE
+WRITE DE-CODE
+Original string: Baa, baa, black sheep, have you any wool?
+Your     string: Baa, baa, black sheep, have you any wool?
+% reduction = -51.21951219512195
+-----------Basic test Passed -------------------
+If you like my class, can uou please recommend on https://www.linkedin.com/in/jagadeesh-vasudevamurthy-6796591/
+Testing Huffman Ends

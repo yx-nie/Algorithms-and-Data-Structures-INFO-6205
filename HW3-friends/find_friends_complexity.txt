@@ -1,0 +1,12 @@
+There are three steps in this algorithm
+1. Find the all prime numbers from 0 to n
+   the time complexity is O((n**0.5)loglogn)
+   the space complexity is theta (n)
+
+2. Find the sum of divisors for each number from 0 to n
+   the time complexity is O(nloglogn)
+   the space complexity is theta (n)
+
+3. Find the amicable pairs between 0 to n
+   the time complexity is theta (n)
+   the space complexity is theta(n)

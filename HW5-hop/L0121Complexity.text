@@ -1,0 +1,25 @@
+L0121Complexity.text
+
+
+1) _nsquare_time_constant_space
+The time complexity is O(n^2), as for each i, it will compared with every element after i, the complexity is
+(n-1) + (n-2) +(n-3)+......+3+2+1, which has the worst case n square
+the space complexity is theta 1, as we only need to use i and j in each iteration
+
+2) _nlogn_time_logn_space
+The time complexity is Theta nlogn, as for each recursion, all the element will be compared. And there will be logn time recursion.
+Therefore, the time complexity if theta nlogn
+the space complexity is theta logn, as until there are result returned, otherwise, we need to store each recursion in the stack.
+
+
+3) _ntime_constant_space
+The time complexity is Theta n, as for each i, we will compare it with the minimum before i, and the minimum will be updated at each step.
+We will go through all the i until n, therefore, the tiem complexity is theta n
+the space complexity is theta 1, as we space to store maximum and minimum, as well as the sellday buyday.
+￼
+
+
+
+
+
+

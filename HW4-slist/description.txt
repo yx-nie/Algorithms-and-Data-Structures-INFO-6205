@@ -1,0 +1,40 @@
+1. build_slist_from_list()
+Time complexity Theta n
+Space complexity Theta n      
+
+2. find_mid_point()
+Time complexity Theta n
+Space complexity Theta n        
+
+3. getI():
+Time complexity Theta n
+Space complexity Theta n
+    
+4. prepend()
+Time complexity Theta n
+Space complexity Theta n
+
+5. find():
+Time complexity O(n)
+Space complexity Theta n
+     
+6. delete():
+Time complexity O(n)
+Space complexity Theta n
+
+7. is_empty():
+Time complexity Theta 1
+Space complexity Theta 1
+
+
+8. delete_front():
+Time complexity Theta(1)
+Space complexity Theta n    
+
+9. delete_last():
+Time complexity Theta n
+Space complexity Theta n       
+        
+10. reverse():
+Time complexity Theta n
+Space complexity Theta n
